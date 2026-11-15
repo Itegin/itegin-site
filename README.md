@@ -30,7 +30,7 @@ This repository is a **showcase only** — the source stays private (see [why](#
 
 | | |
 |---|---|
-| **Public pages** | Résumé landing page (RU and EN) and a projects page; they send no cookies |
+| **Public pages** | Landing page (RU and EN) opens with a pixel-art cover: a winter forest with power lines, a passing train, a plane and stars; the moon or sun doubles as the theme toggle. Pure CSS/SVG, no JS, motion stops under `prefers-reduced-motion`. Plus a projects page; no cookies |
 | **GitHub showcase** | Repos tagged `portfolio` are pulled in by a daily systemd timer, a signed webhook or a sync button in the admin; READMEs go through an allow-list sanitizer, images are cached locally |
 | **Project pages** | [IT-Deck](https://github.com/Itegin/it-deck) is presented section by section, built like a lesson: outline, reading ticks kept only in the browser |
 | **Private learning section** | Courses with Markdown lessons, per-track progress and notes |
