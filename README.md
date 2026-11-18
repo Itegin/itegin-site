@@ -35,7 +35,7 @@ This repository is a **showcase only** — the source stays private (see [why](#
 | **Project pages** | [IT-Deck](https://github.com/Itegin/it-deck) is presented section by section, built like a lesson: outline, reading ticks kept only in the browser |
 | **Private learning section** | Courses with Markdown lessons, per-track progress and notes |
 | **Access** | Hand-rolled auth (no flask-login), invite-only registration with single-use links stored only as hashes, admin role |
-| **Admin panel** | Draft → publish for page sections, Markdown lesson editor with version history |
+| **Admin panel** | Draft → publish for page sections, Markdown lesson editor with version history, a switch for the landing cover (winter forest or city) kept in a site settings table, no redeploy |
 | **Analytics** | Page-view and referrer counter with no cookies and no raw IPs (HMAC'd daily visitor hash) |
 | **Umami analytics** | Self-hosted, no cookies; the dashboard is reachable only through an SSH tunnel; 12-month retention |
 | **IT-Deck keys** | The admin issues Ed25519-signed keys for [IT-Deck](https://github.com/Itegin/it-deck); a signed revoked list is served at `/keys/it-deck/revoked.json` |
