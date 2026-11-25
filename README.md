@@ -22,7 +22,7 @@ Flask · SQLite · no JS frameworks · hosted on a VPS behind nginx.
 
 ### What this is
 
-The personal site of Itegin Baltabaev, Linux & Monitoring Engineer — written and run by me, from the code to the server. It started as a progress tracker for my own study plan and grew into a small platform: a public résumé page (Russian and English), a projects page, and a private learning section with courses and progress tracking. It is a real product I use daily, not a tutorial follow-along.
+The personal site of Itegin Baltabaev, Linux & Support Engineer L2 — written and run by me, from the code to the server. It started as a progress tracker for my own study plan and grew into a small platform: a public landing page with projects (Russian and English), a separate résumé page, and a private learning section with courses and progress tracking. It is a real product I use daily, not a tutorial follow-along.
 
 This repository is a **showcase only** — the source stays private (see [why](#why-the-source-is-private) below). It describes the project and links to the live site.
 
@@ -30,8 +30,8 @@ This repository is a **showcase only** — the source stays private (see [why](#
 
 | | |
 |---|---|
-| **Public pages** | Landing page (RU and EN) opens with a pixel-art cover: a winter forest with power lines, a passing train, a plane and stars; the moon or sun doubles as the theme toggle. Pure CSS/SVG, no JS, motion stops under `prefers-reduced-motion`. Plus a projects page; no cookies |
-| **GitHub showcase** | Repos tagged `portfolio` are pulled in by a daily systemd timer, a signed webhook or a sync button in the admin; READMEs go through an allow-list sanitizer, images are cached locally |
+| **Public pages** | Landing page (RU and EN): pixel-art cover (winter forest, train, plane, stars; moon or sun toggles the theme; pure CSS/SVG, motion stops under `prefers-reduced-motion`) followed by projects: IT-Deck, this site, Telegram mini apps and bots, other repos, recent GitHub activity. Résumé lives on its own `/resume` page. Project cards play short silent screen-recording loops (H.264, ~150–200 KB, dark and light variants, played only while visible). No cookies |
+| **GitHub showcase** | Repos tagged `portfolio` are pulled in by a daily systemd timer, a signed webhook or a sync button in the admin; a «Telegram mini apps and bots» section fills itself from repos tagged `portfolio` + `telegram`; READMEs go through an allow-list sanitizer, images are cached locally |
 | **Project pages** | [IT-Deck](https://github.com/Itegin/it-deck) is presented section by section, built like a lesson: outline, reading ticks kept only in the browser |
 | **Private learning section** | Courses with Markdown lessons, per-track progress and notes |
 | **Access** | Hand-rolled auth (no flask-login), invite-only registration with single-use links stored only as hashes, admin role |
